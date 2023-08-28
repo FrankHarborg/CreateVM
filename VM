@@ -1,0 +1,1 @@
+az vm create --resource-group rg-test-frankthetank --location westeurope --name SampleVM01 --image Ubuntu2204 --admin-username azureuser --public-ip-sku Standard --generate-ssh-keys --verbose 
